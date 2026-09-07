@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Dara 💕</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Georgia, "Times New Roman", serif;
+    background: linear-gradient(145deg, #fff0f6, #fce1ed, #fff7fa);
+    color: #563447;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
+    overflow-x: hidden;
+}
+
+body::before,
+body::after {
+    content: "♡";
+    position: fixed;
+    font-size: 100px;
+    color: rgba(255, 170, 202, 0.25);
+    z-index: 0;
+}
+
+body::before {
+    top: 30px;
+    left: 10px;
+}
+
+body::after {
+    bottom: 20px;
+    right: 10px;
+}
+
+.card {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 520px;
+    background: rgba(255,255,255,0.78);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(232,157,190,0.45);
+    border-radius: 32px;
+    padding: 42px 28px;
+    box-shadow: 0 20px 60px rgba(155, 77, 111, 0.15);
+    text-align: center;
+    animation: appear 1.3s ease;
+}
+
+.flower {
+    font-size: 35px;
+    margin-bottom: 8px;
+    animation: float 3s ease-in-out infinite;
+}
+
+h1 {
+    margin: 0;
+    font-size: 38px;
+    color: #9a5276;
+    letter-spacing: 0.5px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    color: #b77b96;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.line {
+    width: 75%;
+    height: 1px;
+    background: #e8b2c8;
+    margin: 28px auto;
+}
+
+.message {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.message p {
+    margin: 0 0 22px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #9a5276;
+    font-size: 19px;
+}
+
+.closing {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #9a5276;
+    font-weight: bold;
+}
+
+.small {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #b98a9f;
+}
+
+.sparkle {
+    position: fixed;
+    color: rgba(180, 92, 130, 0.35);
+    font-size: 20px;
+    animation: sparkle 4s infinite ease-in-out;
+}
+
+.s1 { top: 15%; left: 8%; }
+.s2 { top: 25%; right: 8%; animation-delay: 1s; }
+.s3 { bottom: 18%; left: 12%; animation-delay: 2s; }
+.s4 { bottom: 30%; right: 10%; animation-delay: 3s; }
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0%,100% { transform: translateY(0); }
+    50% { transform: translateY(-7px); }
+}
+
+@keyframes sparkle {
+    0%,100% { opacity: 0.2; transform: scale(0.8); }
+    50% { opacity: 0.8; transform: scale(1.2); }
+}
+</style>
+</head>
+
+<body>
+
+<div class="sparkle s1">✦</div>
+<div class="sparkle s2">✧</div>
+<div class="sparkle s3">✦</div>
+<div class="sparkle s4">✧</div>
+
+<div class="card">
+
+    <div class="flower">🌸</div>
+
+    <h1>Hey Dara 💕</h1>
+
+    <div class="subtitle">
+        A little reminder for you
+    </div>
+
+    <div class="line"></div>
+
+    <div class="message">
+
+        <p>
+            I know it might be quite hard right now and overwhelming,
+            but I want you to take it easy on yourself and don’t lose focus 🥹.
+        </p>
+
+        <p>
+            Never get too tired that you can’t continue the journey
+            or forget the reason you’re doing all of these.
+        </p>
+
+        <p class="highlight">
+            You’re brilliant.<br>
+            You’re smart.<br>
+            You are intentional about your growth.<br>
+            You are beautiful.<br>
+            You’re ambitious.<br>
+            You are graced.
+        </p>
+
+        <p>
+            And I love you so much ❤️
+        </p>
+
+    </div>
+
+    <div class="line"></div>
+
+    <div class="closing">
+        Yourself ❤️🫂
+    </div>
+
+    <div class="small">
+        Keep going. You’re doing better than you think. 🌷
+    </div>
+
+</div>
+
+</body>
+</html>
